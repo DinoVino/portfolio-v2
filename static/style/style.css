@@ -1,0 +1,19 @@
+/* Making use of the dracula color palette. */
+/* Defining the background color */
+/* Defining the font colors  */
+/* Current Line */
+/* Comment */
+/* Cyan */
+/* Green */
+/* Orange */
+a {
+  color: #6071a4; }
+  a:hover {
+    text-decoration: underline;
+    color: #ffb86b; }
+
+body {
+  background-color: #272935;
+  color: #f8f8f2; }
+
+/*# sourceMappingURL=style.css.map */

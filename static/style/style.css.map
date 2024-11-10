@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;;;;;AAEA,CAAC;EACG,KAAK,ECcC,OAAgB;EDbtB,OAAO;IACH,eAAe,EAAE,SAAS;IAC1B,KAAK,ECoBJ,OAAgB;;ADnBzB,IAAI;EACA,gBAAgB,ECHD,OAA0C;EDIzD,KAAK,ECEI,OAAgD",
+"sources": ["../pre-style/style.sass","../pre-style/colorpalette.sass"],
+"names": [],
+"file": "style.css"
+}
