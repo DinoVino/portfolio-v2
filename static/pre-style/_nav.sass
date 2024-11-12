@@ -1,0 +1,19 @@
+@use 'colorpalette'
+
+nav
+    background-color: hsl(colorpalette.$bg-color-h, colorpalette.$bg-color-s, (colorpalette.$bg-color-l - 3%))
+
+.dropdown 
+    position: relative
+    display: inline-block
+    &:hover .content
+        display: block
+
+.content
+    display: none
+    position: absolute
+    background-color: gray
+    min-width: 150px
+    z-index: 1
+    a   
+        display: block

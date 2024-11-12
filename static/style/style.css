@@ -9,6 +9,29 @@
   font-style: normal;
 }
 
+nav {
+  background-color: hsl(231, 15%, 15%);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown:hover .content {
+  display: block;
+}
+
+.content {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 150px;
+  z-index: 1;
+}
+.content a {
+  display: block;
+}
+
 a {
   color: hsl(60, 30%, 96%);
 }
@@ -20,6 +43,11 @@ a:hover {
 body {
   background-color: hsl(231, 15%, 18%);
   color: hsl(60, 30%, 96%);
+}
+
+.middle {
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */
