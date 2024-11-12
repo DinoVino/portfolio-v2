@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "",
-"sources": [],
-"names": [],
-"file": "colorpalette.css"
-}
+{"version":3,"sourceRoot":"","sources":["../pre-style/colorpalette.sass"],"names":[],"mappings":"AAAA;AACA;AAMA","file":"colorpalette.css"}

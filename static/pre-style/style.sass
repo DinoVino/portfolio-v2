@@ -1,10 +1,11 @@
-@import "colorpalette"
+@use 'colorpalette' 
+@use 'font'  
 
 a
-    color: $comment
+    color: colorpalette.$font-color
     &:hover
         text-decoration: underline
-        color: $orange
+        color: colorpalette.$orange
 body
-    background-color: $background-color
-    color: $font-color
+    background-color: colorpalette.$background-color
+    color: colorpalette.$font-color

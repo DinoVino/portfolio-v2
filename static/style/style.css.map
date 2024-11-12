@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": ";;;;;;;;AAEA,CAAC;EACG,KAAK,ECcC,OAAgB;EDbtB,OAAO;IACH,eAAe,EAAE,SAAS;IAC1B,KAAK,ECoBJ,OAAgB;;ADnBzB,IAAI;EACA,gBAAgB,ECHD,OAA0C;EDIzD,KAAK,ECEI,OAAgD",
-"sources": ["../pre-style/style.sass","../pre-style/colorpalette.sass"],
-"names": [],
-"file": "style.css"
-}
+{"version":3,"sourceRoot":"","sources":["../pre-style/_font.sass","../pre-style/_colorpalette.sass","../pre-style/style.sass"],"names":[],"mappings":"AAAQ;ACAR;AACA;AAMA;ADLA;EACE;EACA;EACA;EACA;;;AEHF;EACI,ODOS;;ACNT;EACI;EACA,ODWC;;;ACVT;EACI,kBDJe;ECKf,ODCS","file":"style.css"}

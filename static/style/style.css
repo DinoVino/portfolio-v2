@@ -1,19 +1,25 @@
+@import "https://fonts.googleapis.com/css2?family=SUSE:wght@353&display=swap";
 /* Making use of the dracula color palette. */
 /* Defining the background color */
 /* Defining the font colors  */
-/* Current Line */
-/* Comment */
-/* Cyan */
-/* Green */
-/* Orange */
+.suse {
+  font-family: "SUSE", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 a {
-  color: #6071a4; }
-  a:hover {
-    text-decoration: underline;
-    color: #ffb86b; }
+  color: hsl(60, 30%, 96%);
+}
+a:hover {
+  text-decoration: underline;
+  color: hsl(31, 100%, 71%);
+}
 
 body {
-  background-color: #272935;
-  color: #f8f8f2; }
+  background-color: hsl(231, 15%, 18%);
+  color: hsl(60, 30%, 96%);
+}
 
 /*# sourceMappingURL=style.css.map */

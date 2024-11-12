@@ -11,7 +11,7 @@
   let {children} = $props();
 </script>
 
-<nav>
+<nav class="suse">
     <a href="/">Home </a>
     <a href="/about">About me</a>
     <a href="/projects"> Projects </a>
