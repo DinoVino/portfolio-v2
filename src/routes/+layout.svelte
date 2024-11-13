@@ -17,8 +17,8 @@
     <div class="dropdown">
         <a href="/projects"> Projects </a>
         <div class="content">
-            <a href="/projects/nixos">test</a>
-            <a href="/projects/innerev">twst</a>
+            <a href="/projects/nixos">NixOS</a>
+            <a href="/projects/innerev">Inner EV</a>
         </div>
 
     </div>

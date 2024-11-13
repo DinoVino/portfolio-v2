@@ -1,10 +1,10 @@
-<h2>
+<h2 class="doto">
     Creating a reproducible Operating System with NixOS
 </h2>
-<h3>
+<h3 class="doto">
     Why did I start this project?
 </h3>
-<p>
+<p class="doto">
     Since I have been using Linux for about 4 years, and heard about the elusive distro NixOS,
     I wanted to give it a shot. There are some really neat features that resonate with me.
     In the past, I had been distrohopping a lot: jumping from one linux distro to the other. 
@@ -18,5 +18,4 @@
     in order to work on the project. This is reaching kingdom hearts levels of convolution.
     Actually working on the projects was something I could only dream of after reliving the nightmare of managing the
     different environments.
-
 </p>
