@@ -118,4 +118,29 @@
         In the future, this should be changed or even moved to a module that handles the login of users.
         All we need it for is to log which user input the changes.
     </p>
+    <p class="doto">
+        These are the endpoints available right now:
+    </p>
+    <ul>
+        <li>
+            <code>
+                /battery/
+            </code>
+        </li>
+        <li>
+            <code>
+                /battery/(int:id)
+            </code>
+        </li>
+        <li>
+            <code>
+                /user/(int:id)
+            </code>
+        </li>
+        <li>
+            <code>
+                /AI/process
+            </code>
+        </li>
+    </ul>
 </div>
