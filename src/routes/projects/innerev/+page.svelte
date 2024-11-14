@@ -129,12 +129,12 @@
         </li>
         <li>
             <code>
-                /battery/(int:id)
+                /battery/id
             </code>
         </li>
         <li>
             <code>
-                /user/(int:id)
+                /user/id
             </code>
         </li>
         <li>
