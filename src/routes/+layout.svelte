@@ -11,7 +11,7 @@
   let {children} = $props();
 </script>
 
-<nav class="suse">
+<nav class="doto">
     <a href="/">Home </a>
     <a href="/about">About me</a>
     <div class="dropdown">
@@ -22,8 +22,8 @@
         </div>
 
     </div>
-    
-    
+
+
 </nav>
 <div class="middle">
     {@render children()}

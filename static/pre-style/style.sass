@@ -1,6 +1,6 @@
-@use 'colorpalette' 
-@use 'font' 
-@use 'nav' 
+@use 'colorpalette'
+@use 'font'
+@use 'nav'
 
 html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video
   margin: 0
@@ -22,5 +22,19 @@ body
     color: colorpalette.$font-color
 
 .middle
-    margin-left: 1em
-    margin-right: 1em
+    margin-left: 2.5em
+    margin-right: 2.5em
+
+ul
+    list-style: katakana
+    margin-left:5em
+
+p
+    margin-left: 3em
+    margin-right: 3em
+
+.text-block
+    background-color: hsl(colorpalette.$bg-color-h, colorpalette.$bg-color-s, colorpalette.$bg-color-l + 5%)
+    padding: 10px
+    margin: 5px 0 0 30px
+    border-radius: 10px 0 10px 0

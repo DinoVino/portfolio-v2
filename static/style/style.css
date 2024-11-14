@@ -17,6 +17,10 @@
   font-style: normal;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 nav {
   background-color: hsl(231, 15%, 15%);
 }
@@ -25,19 +29,38 @@ nav {
   position: relative;
   display: inline-block;
 }
+.dropdown .content {
+  display: none;
+  position: absolute;
+  background-color: hsl(231, 15%, 21%);
+  min-width: 100px;
+  z-index: 1;
+}
+.dropdown .content a {
+  display: block;
+}
 .dropdown:hover .content {
   display: block;
 }
 
-.content {
-  display: none;
-  position: absolute;
-  background-color: hsl(232, 14%, 31%);
-  min-width: 150px;
-  z-index: 1;
+li a {
+  overflow: hidden;
 }
-.content a {
-  display: block;
+li a::after {
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  content: "";
+  position: absolute;
+  background: hotpink;
+  opacity: 0;
+  width: 100%;
+  height: 0.1em;
+  transition: opacity 300ms, transform 300ms;
+  transform: translate3d(-100%, 0, 0);
+}
+a:hover li::after, a:focus li::after {
+  transform: translate3d(0, 0, 0);
 }
 
 html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
@@ -65,8 +88,25 @@ body {
 }
 
 .middle {
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+}
+
+ul {
+  list-style: katakana;
+  margin-left: 5em;
+}
+
+p {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.text-block {
+  background-color: hsl(231, 15%, 23%);
+  padding: 10px;
+  margin: 5px 0 0 30px;
+  border-radius: 10px 0 10px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
