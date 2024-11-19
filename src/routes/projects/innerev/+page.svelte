@@ -9,6 +9,10 @@
 
         The backend is written in Python, using the Flask backend in combination with SQLAlchemy to handle the
         ORM (object relational mapper).
+        <a href="https://github.com/DinoVino/flask-backend" target="_blank">
+            <img src="/github-mark-white.svg" width="25px">:(Github repository)
+        </a>
+
     </p>
 </div>
 <h3 class="doto underline">
