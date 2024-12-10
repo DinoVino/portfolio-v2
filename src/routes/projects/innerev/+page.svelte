@@ -10,7 +10,7 @@
         The backend is written in Python, using the Flask backend in combination with SQLAlchemy to handle the
         ORM (object relational mapper).
         <a href="https://github.com/DinoVino/flask-backend" target="_blank">
-            <img src="/github-mark-white.svg" width="25px">:(Github repository)
+            <img src="/github-mark-white.svg" width="25px" alt="Github repository link">:(repository)
         </a>
 
     </p>
@@ -147,4 +147,45 @@
             </code>
         </li>
     </ul>
+</div>
+
+<h3 class="doto underline">
+    Making migrations when changing the models
+</h3>
+<div class="text-block">
+    <p>
+        The main benefit of using SQLAlchemy is the fact that you can change the
+        models within the code and make the database reflect those changes as well.
+        This makes the maintenance a lot easier for the developers since they only have to change things at one place instead
+        of over multiple and past changes, if properly configured, can be carried over to a new database.
+
+        The code is pretty intuitive as well. When making new changes to the models (adding/removing/changing), you also have to run
+        the command <code>flask db migrate -m "your commit message"</code>.
+        Be sure to run this command when you are also running an instance of your application.
+        This will generate the migration file within the <code>migration</code> directory.
+        Make sure to add code to properly reflect the changes. For example, add code to new columns that are not allowed to be empty but added on top of the
+        pre-existing models. Be sure to refer to the flask documentation for these operations.
+
+        After you have completed the migration, you need to update the database with said created migration. This can be done by running the command,
+        whilst having an active instance of the application, <code>flask db upgrade </code>. As long as your migration is properly implemented, this
+        will succeed.
+    </p>
+</div>
+
+<h3 class="doto underline">
+    Implementing an MVC architecture
+</h3>
+<div class="text-block">
+    <p>
+        At first, the idea was to implement a "Domain Driven Design" for the application but due to
+        time constraints and lack of knowledge, combined with the end of the semester nearing, implementing
+        a more simple yet still applicable framework seemed to be the better option.
+
+        We have opted for the Model View Controller framework. This is simple enough, yet
+        flexible enough to support this project. We have already made use of views in the react frontend.
+        Flask also provides models so this just turned into a plug and play.
+
+        All we still had to implement were the services and dividing the models. Refer to the documentation of "MVC VS DDD",
+        to see how we came to the decision to implement MVC.
+    </p>
 </div>
